@@ -1,0 +1,17 @@
+.Products {
+    display: flex;
+}
+
+.products_block img {
+    width: 240px;
+}
+
+.AddCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.products_block {
+    margin: 20px;
+}

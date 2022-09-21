@@ -1,0 +1,80 @@
+    .Header {
+        width: 1200px;
+        margin: 0 auto;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .logo img {
+        width: 100px;
+        cursor: pointer;
+    }
+    
+    .cart a {
+        border-bottom: none;
+    }
+    
+    .Input {
+        position: relative;
+    }
+    
+    .Input input {
+        border-radius: 200px;
+        z-index: 0;
+        padding: 15px 130px 15px 45px;
+    }
+    
+    .Input input::placeholder {
+        font-size: 15px;
+    }
+    
+    .search {
+        position: absolute;
+        width: 25px;
+        top: 12px;
+        left: 15px;
+        z-index: 1;
+    }
+    
+    .cart img {
+        width: 35px;
+        cursor: pointer;
+    }
+    
+    .firstButton a {
+        border: 1px solid #1c1d1fba;
+        background-color: transparent;
+        color: #000;
+        font-weight: bolder;
+        padding: 15px 70px;
+    }
+    
+    .firstButton a:hover {
+        background-color: rgb(240, 239, 239);
+    }
+    
+    .secondButton a {
+        border: 1px solid #1c1d1fba;
+        background-color: rgb(26, 26, 26);
+        color: #fff;
+        font-weight: bolder;
+        padding: 15px 70px;
+    }
+    
+    .secondButton a:hover {
+        background-color: #000;
+    }
+    
+    .secondButton button {
+        border: 1px solid #1c1d1fba;
+        background-color: rgb(26, 26, 26);
+        color: #fff;
+        font-weight: bolder;
+        padding: 15px 70px;
+    }
+    
+    .secondButton button:hover {
+        background-color: #000;
+    }
